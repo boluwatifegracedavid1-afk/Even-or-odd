@@ -1,0 +1,6 @@
+c=float( input ("type your temp in celcius: "))
+z=((c*1.8)+32)
+print (f"your temp in fahrenhe is {z:.2f}")
+f= float(input ("type your temp in fahrenhe: "))
+z=round((0.556*(f-32)),2)
+print("your temp in celcius is",z)
